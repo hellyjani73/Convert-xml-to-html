@@ -6,8 +6,10 @@ vs code>index.html>live server
 
 first you land on home page . There are Two Buttons.
 when you click on any button xml sheet will be open .
-save change: when you can edit data and click on save change data will be automettlcy change in both file html an xml
+save change: when you can edit data and click on save change data will be automettlcy change in both file html an xml.
+
 ****To Check Xml File Change Data****
+
 Open Developer Tools:
 
 For Chrome, Edge, or Opera: Right-click on the web page and select "Inspect" or press Ctrl + Shift + I (Windows/Linux) or Cmd + Opt + I (Mac).

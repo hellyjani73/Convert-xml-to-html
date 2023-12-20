@@ -1,3 +1,9 @@
+***live view***
+
+https://technical-round-helly-janis-projects.vercel.app/
+
+
+
 First open file in vs code
 Go index.html and click on live server(it can not debuug and run directly you can run it with live server)
 vs code>index.html>live server

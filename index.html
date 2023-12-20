@@ -1,39 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>XML to HTML Table</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XML Data Editor</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff);
+      color: #333;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
 
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 20px;
-      }
+    .container {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+    }
 
-      th,
-      td {
-        padding: 12px;
-        border: 1px solid #ddd;
-        text-align: left;
-      }
+    h1 {
+      color: #3498db;
+      margin-bottom: 10px;
+    }
 
-      th {
-        background-color: #f2f2f2;
-      }
+    a {
+      background-color: #3498db;
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
 
-      tr:hover {
-        background-color: #f5f5f5;
-      }
-    </style>
-  </head>
-  <body>
-    <center id="header"></center>
-    <div id="data-tables"></div>
-    <script src="script.js" defer></script>
-  </body>
+    a:hover {
+      background-color: #258cd1;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #3498db;
+      color: #fff;
+    }
+
+    .editable {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>TechOptions Technical Round</h1>
+    <a href="Master.html">Master</a>
+    <a href="Transaction.html">Transactions</a>
+    <div id="data-container"></div>
+  </div>
+</body>
 </html>
